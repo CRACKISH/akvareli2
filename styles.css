@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    margin-bottom: 48px;
+}
+
+.logo {
+    width: 246px;
+    height: 56px;
+    background: url('assets/logo.png') no-repeat;
+}
+
+.duty-wrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #ff5555;
+    font-size: 32px;
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.office-info-wrap {
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.paymant-info-wrap {
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.table-wrap {
+    width: 100%;
+    align-self: center;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.table-wrap .caption {
+    font-size: 18px;
+}
+
+.table-wrap tr {
+    border-bottom: 1px solid #f2f2f2;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-wrap th {
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.4;
+    text-transform: uppercase;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.table-wrap td {
+    font-size: 15px;
+    line-height: 1.6;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.table-wrap th, td {
+    font-weight: unset;
+    padding-right: 10px;
+}
